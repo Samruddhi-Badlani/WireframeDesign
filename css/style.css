@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.people{
+    flex: 40%;
+    margin-right: 5px;
+    /* background-color: yellow; */
+}
+.readChats{
+    flex: 60%;
+    margin-left: 5px;
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+   
+}
+.titleBar{
+    background-color: #f5f5f5;
+    height: 10%;
+    display: flex;
+    
+    flex-direction: row;
+}
+#webIconDiv{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex: 70%;
+}
+#webIcon{
+    margin: 10px;
+    height: 45px;
+    width: 120px;
+    margin-left: 50px;
+    
+    
+}
+
+#emailBox{
+    margin: 10px;
+    margin-top: 20px;
+}
+.profilePic{
+    display: flex;
+    align-items: center;
+    flex: 10%;
+}
+.profileName{
+    display: flex;
+    align-items: center;
+    flex: 70%;
+}
+.moreOptions{
+    display: flex;
+    flex: 15%;
+    align-items: center;
+}
+.cancel{
+    display: flex;
+    flex: 5%;
+    align-items: center;
+}
+#profileImage{
+    margin: 10px;
+    height: 40px;
+    width: 50px;
+    margin-left: 50px;
+
+}
+
+#moreOptionsImage{
+    margin: 10px;
+    
+    width: 40px;
+   
+}
+
+#cancelButton{
+    margin: 10px;
+    width: 16px;
+    height: 17px;
+}
+.contactsSection{
+
+    margin: 20px;
+    display: flex;
+    margin-top: 50px;
+    
+    align-items: center;
+    flex-direction: column;
+
+}
+.addContact{
+    background-color: #f5f5f5;
+    width: 400px;
+    height: 120px;
+    border-radius: 16%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    /* justify-content: center; */
+
+}
+
+.dotButton{
+    height: 16px;
+    width: 14px;
+    border-radius: 100%;
+    background-color: green;
+    margin-left: 40px;
+    /* flex: 10%; */
+}
+.contactProfileImages{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    flex: 10%;
+
+}
+
+.messageInfo{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    flex: 65%;
+
+}
+.viewInfo{
+    flex: 10%;
+}
+
+.contactName{
+    font-weight: bold;
+    
+}
+.viewInfoImages{
+    /* width: 100px; */
+    height: 30px;
+}
+
+.myMessage{
+
+   
+    margin: 40px;
+    margin-left: 40px;
+    height: 30px;
+
+
+}
+.yourMessage{
+
+   
+    margin: 40px;
+    margin-left: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* justify-content: center; */
+}
+.chatSection{
+    margin-top:10px ;
+  
+    flex: 50%;
+}
+.myMessageSpan{
+    background-color: #f5f5f5;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 30%;
+    margin: 10px;
+    max-width: 400px;
+
+}
+
+.yourMessageSpan{
+    background-color: #eba5c7;
+    display: inline-block;
+
+ 
+    
+    padding: 15px;
+    border-radius: 20%;
+    margin: 10px;
+   
+    max-width: 400px;
+
+}
+.typeSection{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+
+}
+.attach{
+    flex: 10%;
+    /* background-color: red; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.typeMessage{
+    flex: 80%;
+    background-color: blue;
+}
+.sendButton{
+    flex: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attachButton{
+    width: 30px;
+    height: 30px;
+}
+.typeMessageInput{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
